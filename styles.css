@@ -1,0 +1,370 @@
+/* General Styles */
+body {
+  font-family: "Roboto", "Comic Sans MS", "Comic Sans", Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+  background-color: #f4f4f4;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+header .logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.auth-buttons {
+  float: right;
+}
+
+.auth-buttons a {
+  margin-left: 15px;
+  padding: 10px 15px;
+  border: 1px solid #333;
+  text-decoration: none;
+  color: #333;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.auth-buttons a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #eaeaea;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.hero ul li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.cta-buttons a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  border: 2px solid #333;
+  text-decoration: none;
+  color: #333;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.cta-buttons a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Feature Section */
+.features {
+  padding: 40px 0;
+  background-color: #fff;
+}
+
+.features h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.feature-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  flex: 1;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+
+.feature-card h3 {
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+.feature-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.feature-card .button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.feature-card .button:hover {
+  background-color: #555;
+}
+
+/* Pricing Plan Section */
+.pricing-plans {
+  padding: 60px 0;
+  background-color: #eaeaea;
+}
+
+.pricing-plans h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 28px;
+}
+
+.plans {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.plan {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  flex: 1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.plan h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.plan p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.plan ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.plan ul li {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.plan .button {
+  padding: 10px 15px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.plan .button:hover {
+  background-color: #555;
+}
+
+/* Image Gallery Section */
+.image-gallery {
+  padding: 40px 0;
+  background-color: #fff;
+}
+
+.image-gallery h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.carousel-item {
+  width: 150px;
+  height: 100px;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+/* Call to Action Section */
+.cta {
+  background-color: #f4f4f4;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.cta h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.cta p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.cta-buttons a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  border: 2px solid #333;
+  text-decoration: none;
+  color: #333;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.cta-buttons a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* FAQ Section */
+.faq {
+  padding: 60px 0;
+  background-color: #eaeaea;
+}
+
+.faq h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 28px;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.faq-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Footer Section */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer .footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+footer .footer-links a:hover {
+  text-decoration: underline;
+}
+
+footer .legal-links {
+  margin-top: 15px;
+}
+
+footer .legal-links a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+footer .legal-links a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .feature-cards,
+  .plans {
+    flex-direction: column;
+  }
+
+  .auth-buttons {
+    float: none;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cta-buttons a {
+    display: block;
+    margin: 10px auto;
+  }
+}
